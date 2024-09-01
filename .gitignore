@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+
+# Flask instance folder
+instance/
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Log files
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Test results
+nosetests.xml
+pytest*.xml
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Configuration files
+*.config
+
+# Secrets
+config.yml
+secrets.json
